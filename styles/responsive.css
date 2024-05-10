@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    body {
+      display: block;
+    }
+
+    h1, h2, p, ul,ol, li, td {
+        margin: 0;
+        text-wrap: wrap;
+    }
+
+    .recipe-container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+
+        width: 100%;
+        margin: 0;
+    }
+  }

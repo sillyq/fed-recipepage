@@ -1,0 +1,17 @@
+.recipe-header {
+    h1 {
+      font-family: var(--youngF);
+      font-size: 32px;
+      color: var(--darkChar);
+
+      margin: 0;
+    }
+
+    p {
+      font-family: var(--interF);
+      font-size: 12px;
+      color: var(--darkChar);
+
+      margin: 0;
+    }
+}

@@ -1,0 +1,45 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRasp: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggShell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkChar: hsl(24, 5%, 18%);
+
+    --youngF: "Young Serif", serif;
+    --interF: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--eggShell);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+}
+
+span {
+    font-weight: 800;
+}
+
+p {
+    text-wrap: wrap;
+}
+
+hr {
+    color: var(--wengeBrown);
+
+    width: 100%;
+    margin: 2em 0px;
+}

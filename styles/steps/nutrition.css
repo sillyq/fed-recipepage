@@ -1,0 +1,34 @@
+.recipe-nutrition {
+    h2 {
+        font-family: var(--youngF);
+        color: var(--nutmeg);
+
+        margin: 0;
+    } 
+
+    table {
+        border: none;
+
+        width: 100%;
+        margin: 0;
+
+        p:not(:has(td)) {
+            font-family: var(--interF);
+            font-size: 12px;
+            margin: 0;
+        }
+        
+        tr:not(:last-child) {
+            border-bottom: 1px solid black;
+        }
+
+        td p {
+            width: 100%;
+            margin: 0.5em 1em;
+        }
+        td:last-child {
+            color: var(--nutmeg);
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.recipe-instructions {
+    h2 {
+        font-family: var(--youngF);
+        color: var(--nutmeg);
+
+        margin: 0;
+    }
+
+    p {
+        font-family: var(--interF);
+        font-size: 12px;
+        color: var(--darkChar);
+
+        margin-left: 1em;
+    }
+
+    ol {
+        margin: 0;
+        padding-left: 1.5em;
+    }
+  
+    li {
+        padding: 0;
+    }
+    li::marker {
+        font-family: var(--interF);
+        color: var(--nutmeg);
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
