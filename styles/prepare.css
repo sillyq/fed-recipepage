@@ -4,7 +4,7 @@
     color: var(--darkRasp);
     border-radius: 10px;
 
-    padding: 25px;
+    padding: 1em 1.5em;
 
     h2 {
       font-size: 15px;
@@ -22,11 +22,11 @@
 
     ul {
       margin: 0;
-      padding-left: 20px;
+      padding-left: 1.5em;
     }
 
     li {
-      margin-top: 10px;
+      margin-top: 0.7em;
     }
     li::marker {
       font-size: 10px;

@@ -1,19 +1,38 @@
 @media only screen and (max-width: 600px) {
     body {
       display: block;
+      
+      margin: 0;
+      padding: 0;
     }
 
     h1, h2, p, ul,ol, li, td {
-        margin: 0;
-        text-wrap: wrap;
+      text-wrap: wrap;
+
+      margin: 0;
     }
+
+    .recipe-img img {
+      width: 100%;
+      border-radius: 0px;
+      margin-bottom: 0;
+    }
+
+    .recipe-prepare {
+      padding: 1em 1.5em;
+    } 
 
     .recipe-container {
         display: flex;
         flex-direction: column;
-        border-radius: 0;
+        border-radius: 0px;
+        gap: 0;
 
-        width: 100%;
         margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .recipe-text {
+      padding: 1em 2em 2em 2em;
     }
   }

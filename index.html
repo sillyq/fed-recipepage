@@ -25,24 +25,25 @@
   <title>Frontend Mentor | Recipe page</title>
 </head>
 <body>
-  <!-- PARENT BOX FOR ALL CONTENTS -->
+  <!-- PARENT BOX (BIGGEST box) -->
   <main class="recipe-container">
 
-    <!-- content 1 : head image -->
+    <!-- box 1 : head image -->
     <section class="recipe-img">
       <img src="assets/images/image-omelette.jpeg" alt="recipe image">
     </section>
 
+    <!-- box 2 : control text part -->
     <section class="recipe-text">
-      <!-- content 2 : header text -->
-      <section class="recipe-header">
+      <!-- box 2's content 1 : header -->
+      <div class="recipe-header">
         <h1>Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
-      </section>
+      </div>
 
-      <!-- content 3 : preparation time tab -->
+      <!-- box 2's content 2 : preparation time -->
       <section class="recipe-prepare">
         <h2 class="prepare-text">Preparation Time</h2>
         <ul>
@@ -52,8 +53,9 @@
         </ul>
       </section>
 
-      <!-- content 4 : full steps -->
-      <section class="recipe-text">
+      <!-- box 2's content 3 : cooking steps -->
+      <section class="recipe-text-steps">
+
         <div class="recipe-ingredient">
           <h2>Ingredients</h2>
           <ul>
@@ -104,7 +106,9 @@
           </table>
         </div>
       </section>
+      <!-- END OF box 2's content 3 : cooking steps -->
     </section>
+    <!-- END OF box 2 : control text part -->
 
   </main>
 </body>

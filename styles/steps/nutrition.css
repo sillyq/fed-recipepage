@@ -3,8 +3,15 @@
         font-family: var(--youngF);
         color: var(--nutmeg);
 
-        margin: 0;
+        margin: 0 0 0.5em 0;
     } 
+
+    p {
+        font-family: var(--interF);
+        font-size: 12px;
+
+        margin: 0 0 1em 0;
+    }
 
     table {
         border: none;
@@ -17,14 +24,13 @@
             font-size: 12px;
             margin: 0;
         }
-        
-        tr:not(:last-child) {
-            border-bottom: 1px solid black;
-        }
 
+        tr:not(:last-child) > td {
+            border-bottom: 1px solid var(--wengeBrown);
+        }
         td p {
             width: 100%;
-            margin: 0.5em 1em;
+            margin: 0.5em 2em;
         }
         td:last-child {
             color: var(--nutmeg);
