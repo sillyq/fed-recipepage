@@ -46,6 +46,7 @@ Users should be able to:
 - a LOT more about HTML tags and CSS properties
 - how to use measurement units for aligning or styling the page
 - making the page resonsive for smaller devices
+- organizing files and CSS selectors
 
 ### Useful resources
 
